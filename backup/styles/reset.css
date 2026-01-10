@@ -1,0 +1,43 @@
+body,h1,h2,p,button,input{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    border: none;
+}
+
+
+*{
+    /* border:1px solid green; */
+    /* font-size: 1.125rem; */
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: var(--neutral900);
+}
+
+body > div{
+    padding: 1rem 1rem 3rem;
+    min-width: 345px;
+    max-width: 1216px;
+    margin-inline: auto;
+}
+
+
+h1{
+    max-width: 345px;
+    font-size: 3rem;
+    text-align: center;
+    margin-inline: auto;
+    color: var(--neutral0);
+    margin-block: 2.5rem;
+    line-height: 1;
+}
+
+h2{
+    font-size: 1.375rem;
+    color: var(--neutral0);
+}

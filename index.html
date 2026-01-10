@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/search_box.css" />
+    <link rel="stylesheet" href="./styles/today.css" />
+    <link rel="stylesheet" href="./styles/climate.css" />
+    <link rel="stylesheet" href="./styles/daily_forecast.css" />
+    <link rel="stylesheet" href="./styles/hourly_forecast.css" />
+    <link rel="stylesheet" href="./styles/desktop_style.css" />
+  </head>
+  <body>
+    <div>
+    <header>
+      <div class="top_bar">
+        <img src="./assets/images/logo.svg" alt="Weather app logo" />
+        <button>
+          <img src="./assets/images/icon-units.svg" alt="settings icon" />
+          <span>Units</span>
+          <img src="./assets/images/icon-dropdown.svg" alt="settings icon" />
+        </button>
+      </div>
+      <h1>How's the sky looking today?</h1>
+    </header>
+
+    <main>
+      <div class="search_box_wrapper">
+        <div class="search_box">
+          <img src="./assets/images/icon-search.svg" alt="search icon" /><!--
+       --><input type="text" placeholder="Search for a place..." />
+          <div class="suggestions"></div>
+        </div>
+        <button>Search</button>
+      </div>
+
+      <div>
+        <div>
+          <div class="today"></div>
+
+          <div class="climate"></div>
+
+          <h2>Daily forecast</h2>
+          <div class="daily_forecast"></div>
+        </div>
+
+        <div class="hourly_forecast">
+          <div class="header_button">
+            <h2>Hourly forecast</h2>
+            <button class="day">
+              <span>Tuesday</span>
+              <img src="./assets/images/icon-dropdown.svg" alt="" />
+              <ul class="dropdown-menu">
+                <li>Monday</li>
+                <li>Sunday</li>
+                <li>Tuesday</li>
+                <li>Wednesday</li>
+                <li>Thursday</li>
+                <li>Friday</li>
+                <li>Saturday</li>
+              </ul>
+            </button>
+          </div>
+
+          <div class="container">
+            <div class="info">
+              <div>
+                <img
+                  src="./assets/images/icon-drizzle.webp"
+                  alt="Hourly forecast icon"
+                />
+                <span class="hour">3 PM</span>
+              </div>
+              <p class="temp">20°</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    </div>
+
+    <script src="./scripts/UI.js"></script>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

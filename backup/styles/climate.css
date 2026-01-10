@@ -1,0 +1,32 @@
+.climate{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 2.25rem;
+
+    color: var(--neutral0);
+}
+
+
+.climate > div{
+    padding-left:1.5rem;
+    padding-block: 1.5rem;
+
+    background-color: var(--neutral800);
+    border: 1px solid var(--neutral600);
+    border-radius: 0.75rem;
+}
+
+.climate div .title{
+    font-size: 1.125rem;
+    margin-bottom: 1.875rem;
+
+    color: var(--neutral300);
+}
+
+.climate div .info{
+    font-size: 2rem;
+    
+    color: var(--neutral0);
+}

@@ -1,0 +1,132 @@
+
+.hourly_forecast{
+    padding-inline: 1rem;
+    padding-block: 1.25rem;
+
+    background-color: var(--neutral800);
+    border-radius: 1.125rem;
+}
+
+.hourly_forecast .header_button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.hourly_forecast h2{
+    font-size: 1.25rem;
+}
+
+.hourly_forecast .day{
+    padding-inline: 1rem;
+    padding-block: 0.563rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    font-size: 1rem;
+
+    background-color: var(--neutral600);
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.hourly_forecast .day img{
+    width: 0.7rem;
+}
+
+
+.hourly_forecast .container{
+    font-size: 1rem;
+
+    color: var(--neutral0);
+}
+
+
+
+.hourly_forecast .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 0.563rem;
+    padding-inline:0.75rem ;
+    margin-block: 1rem;
+
+    background-color: var(--neutral700);
+    border-radius: 0.5rem;
+    border: 1px solid var(--neutral600);
+}
+
+.hourly_forecast .info div{
+    display: flex;
+    align-items: center;
+}
+
+
+.hourly_forecast .info img{
+    width: 2.5rem;
+    margin-right: 0.5rem;
+}
+
+.hourly_forecast .info .hour{
+    font-size: 1.25rem;
+}
+
+.hourly_forecast .info .temp{
+    font-size: 1rem;
+}
+
+.hourly_forecast .info:first-child{
+    margin-top: 0;
+}
+
+.hourly_forecast .info:last-child{
+    margin-bottom: 0;
+}
+
+
+
+
+.hourly_forecast .day{
+    position: relative;
+}
+
+.hourly_forecast .day:hover {
+  background-color: var(--neutral700);
+}
+
+.hourly_forecast .dropdown-menu {
+  display: none;
+  position: absolute;
+  margin-top: 6px;
+  background-color: white;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  left: 0;
+  top: 2rem;
+  background-color: var(--neutral800);
+}
+
+.hourly_forecast .dropdown-menu li {
+  padding: 0;
+  cursor: pointer;
+  color: var(--neutral0);
+}
+
+.hourly_forecast .dropdown-menu li:hover {
+  background-color: var(--neutral600);
+}
+
+.hourly_forecast .day:hover .dropdown-menu,
+.show {
+  display: block;
+}
+
+
+
+
+
+

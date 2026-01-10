@@ -1,0 +1,56 @@
+@media (min-width: 650px) {
+
+  h1{
+    max-width: 100%;
+    margin-bottom: 4.25rem;
+  }
+
+
+  .search_box_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-inline:auto ;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    
+  }
+
+  .search_box{
+    flex: 1;
+    max-width: 526px;
+  }
+
+  .search_box + button{
+    width: fit-content;
+    height: fit-content;
+    padding: 1.25rem 1.5rem;
+  }
+
+
+  .search_box_wrapper + div{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .today{
+    display: flex;
+    align-items: center;
+    background-image: url('../assets/images/bg-today-large.svg');
+    aspect-ratio: 800 / 286;
+    padding-inline: 1.5rem;
+  }
+
+    .today .city_date{
+      flex: 2;
+    }
+
+
+  
+
+    .hourly_forecast{
+      flex: 1;
+      max-width: 385px;
+    }
+
+}

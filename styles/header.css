@@ -1,0 +1,25 @@
+
+.top_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_bar > img{
+    width: 8.625rem;
+}
+
+.top_bar button{
+    display: flex;
+    gap: 0.25rem;
+    padding: 0.563rem;
+    font-size: 1rem;
+
+    background-color: var(--neutral800);
+    border-radius: 5px;
+}
+
+.top_bar span{
+    color: var(--neutral0);
+}
+
